@@ -14,7 +14,7 @@ const Job = ({ job }) => {
     salary,
   } = job;
   return (
-    <div className="card card-compact py-2 bg-base-100 shadow-xl">
+    <div className="card card-compact mt-8 py-2 bg-base-100 shadow-xl">
       <figure>
         <img src={logo} alt="logo" />
       </figure>
